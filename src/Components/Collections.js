@@ -27,16 +27,30 @@ function Collections() {
             <img src={shoe1}/>
         </div>
         <div className="shoes2">
-            <div className="shoe2"><img src={shoe2}/></div>
-            <div className="shoe3"><img src={shoe3} /></div>
-            <div className="shoe4"><img src={shoe4}/></div>
+            <div className="shoe2">
+                <img src={shoe2}/>
+                </div>
+            <div className="shoe3">
+                <img src={shoe3} />
+                </div>
+            <div className="shoe4">
+                <img src={shoe4}/>
+                </div>
         </div>
     </div>
          <div className="shoes3">
-           <div className="shoe5"><img src={shoe5}/></div>
-            <div className="shoe6"><img src={shoe6}/></div>
-            <div className="shoe7"><img src={shoe7}/></div>
-            <div className="shoe8"><img src={shoe8}/></div>
+           <div className="shoe5">
+               <img src={shoe5}/>
+               </div>
+            <div className="shoe6">
+                <img src={shoe6}/>
+                </div>
+            <div className="shoe7">
+                <img src={shoe7}/>
+                </div>
+            <div className="shoe8">
+                <img src={shoe8}/>
+                </div>
         </div>
         <div className="trending">
 
@@ -45,32 +59,32 @@ function Collections() {
                 <h2>TRENDING THIS MONTH</h2>
                 <div className="line4"></div>
             </div>
-
+            
             <div className="trendItems">
             
             <div className="shoe9"> 
-                <img src={shoe9}/>
+                <img src={shoe9} className="qvIMG"/>
                 <div className="middle">
                     <div className="qv">Quick View</div>
                 </div>
                 </div>
 
                 <div className="shoe10"> 
-                <img src={shoe10}/>
+                <img src={shoe10} className="qvIMG"/>
                 <div className="middle">
                     <div className="qv">Quick View</div>
                 </div>
                 </div>
 
                 <div className="shoe11"> 
-                <img src={shoe11}/>
+                <img src={shoe11} className="qvIMG"/>
                 <div className="middle">
                     <div className="qv">Quick View</div>
                 </div>
                 </div>
 
                 <div className="shoe12"> 
-                <img src={shoe12} width="250"/>
+                <img src={shoe12} className="qvIMG"/>
                 <div className="middle">
                     <div className="qv">Quick View</div>
                 </div>

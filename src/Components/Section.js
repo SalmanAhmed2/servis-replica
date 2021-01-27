@@ -10,14 +10,14 @@ function Section() {
             <img src={Banner} className="banerIMG"  alt="image"/>
           </div>
           <div className="Categories">
-            <div className="Men"><img src={men} className="image"/>
-            <div className="effect">Men</div>
+            <div className="Men effect"><img src={men} className="image"/>
+            <div className="title">Men</div>
             </div>
-            <div className="Women"><img src={women}  className="image"/>
-            <div className="effect">Women</div>
+            <div className="Women effect"><img src={women}  className="image"/>
+            <div className="title">Women</div>
             </div>
-            <div className="Kids"><img src={kids}  className="image"/>
-            <div className="effect">Kids</div>
+            <div className="Kids effect "><img src={kids}  className="image"/>
+            <div className="title">Kids</div>
             </div>
           </div>
           <div className="info">

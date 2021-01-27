@@ -3,39 +3,56 @@ import SearchIcon from '@material-ui/icons/Search';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import '../App.css'
 function Header() {
-    const nav1 = [
-        {ID: 1, label: "Home"},
-        {ID: 2, label:  "Browse Products"},
-        {ID: 3, label: "Find a Store"},
-    ]
-    const nav2 =[
-        {ID: 1, label: "About Us"},
-        {ID: 2, label: "Contact Us"},
-        {ID: 3, label: <SearchIcon/>}
-    ]
-    return (
-          <div><div className="headerItems">
-          {
-          nav1.map(item =>
-              <>
-              <ul key={item.ID} className="noul">
-                  <li>{item.label}</li>
+
+        return (
+            <>
+              <div className="headerItems">
+              <ul className="noul">
+                  <li active>Home</li>
+                  <li>
+                  <div class="dropdown"> Browse Products<div class="dropdown-content">
+                   <table>
+                       <thead>
+                           <tr>
+                               <th>Men</th>
+                               <th>Women</th>
+                               <th>Kids</th>
+                               <th>Accessories</th>
+                           </tr>
+                           </thead>
+                           <tr>
+                               <td>Shoes</td>
+                               <td>Flat</td>
+                               <td>Boys</td>
+                               <td>Belts</td>
+                           </tr>
+                           <tr>
+                                <td>Shoes</td>
+                               <td>Flat</td>
+                               <td>Boys</td>
+                               <td>Belts</td>
+                           </tr>
+                           <tr>
+                                <td>Sandles & Slipers</td>
+                               <td>Sandles & Slipers</td>
+                               <td></td>
+                               <td></td>
+                           </tr>
+                   </table>
+                  </div>
+                   </div>
+                  </li>
+                  <li>Find a Store</li>
+                </ul>
+                   <img className="logo" src={('http://pakkapapita.com/servis/wp-content/uploads/2017/09/servis-logo-resized.png')} />
+                  <ul className="noul2">
+                  <li>About Us</li>
+                  <li>Contact Us</li>
+                  <li><SearchIcon/></li>
               </ul>
-              </>
-          )}
-          
-            <img className="logo" src={('http://pakkapapita.com/servis/wp-content/uploads/2017/09/servis-logo-resized.png')} />
-            {
-                nav2.map(item=>
-                  <>
-                  <ul className="noul"><li>
-                          {item.label}
-                      </li>
-                  </ul></>)
-            }
-  <div className="headLine"></div>
-  </div>
-  </div>
+              </div>
+               <div className="headLine"></div>
+            </>
     )
 }
 
