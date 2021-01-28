@@ -10,7 +10,7 @@ function Header() {
               <ul className="noul">
                   <li active>Home</li>
                   <li>
-                  <div class="dropdown"> Browse Products<div class="dropdown-content">
+                  <div class="dropdown"> Browse Products<ArrowDropDownIcon/><div class="dropdown-content">
                    <table>
                        <thead>
                            <tr>

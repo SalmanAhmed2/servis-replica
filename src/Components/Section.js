@@ -4,11 +4,12 @@ import men from './Images/men.jpg';
 import women from './Images/women.jpg';
 import kids from './Images/kids.jpg'
 function Section() {
-    return (
-        <div>
+  return (
+
+      <div>
           <div className="Banner">
             <img src={Banner} className="banerIMG"  alt="image"/>
-          </div>
+            </div>
           <div className="Categories">
             <div className="Men effect"><img src={men} className="image"/>
             <div className="title">Men</div>
@@ -32,8 +33,7 @@ function Section() {
             </div>
           </div>
           </div>
-        </div>
-    )
+          </div>
+        );
 }
-
 export default Section;
