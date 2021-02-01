@@ -1,8 +1,11 @@
 import './App.css';
-import Header from './Components/Header';
 import Section from './Components/Section';
+import Header from './Components/Header';
 import Collections from './Components/Collections';
 import Footer  from './Components/Footer';
+import NewComps  from './Components/NewComps';
+
+
 function App() {
 
   return (
@@ -10,7 +13,7 @@ function App() {
       <Header/>
       <Section/>
       <Collections/>
-      <Footer/>
+    <Footer/> 
     </div>
   );
 }

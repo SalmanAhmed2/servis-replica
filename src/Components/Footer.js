@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer">
             <div className="instaHead">
                 <div className="line5"></div>
-                <h2>FOLLOW US ON INSTAGRAM</h2>
+                FOLLOW ON INSTAGRAM
                 <div className="line6"></div>
             </div>
             <p>Instagram did not return a 200.</p>
