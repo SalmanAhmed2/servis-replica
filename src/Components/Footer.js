@@ -11,7 +11,6 @@ function Footer() {
                 FOLLOW ON INSTAGRAM
                 <div className="line6"></div>
             </div>
-            <p>Instagram did not return a 200.</p>
         </div>
          <div className="footNav">
             <div className="links">

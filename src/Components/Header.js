@@ -24,7 +24,7 @@ function Header() {
 
     </Nav>
     <Nav>
-    <Navbar.Brand><img className="logobg" src={('http://pakkapapita.com/servis/wp-content/uploads/2017/09/servis-logo-resized.png')}/></Navbar.Brand>
+    <img className="logobg" src={('http://pakkapapita.com/servis/wp-content/uploads/2017/09/servis-logo-resized.png')}/>
     </Nav>
     <Nav className="noul2">
     <Nav.Link>About Us</Nav.Link>
@@ -34,7 +34,7 @@ function Header() {
   </Navbar.Collapse>
 
 </Navbar>
-               <div className="headLine"></div>
+  <div className="headLine"></div>
             </>
     )
 }

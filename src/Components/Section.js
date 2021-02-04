@@ -31,7 +31,7 @@ function Section() {
            
           <div className="info">
           <div className="infos">
-            <h1>SHOES FOR EVERYONE</h1>
+            <span>SHOES FOR EVERYONE</span>
             <p>Servis has been your companion in happiness, both big and small, for over 50 years. Our roots are firmly grounded in Pakistan and with its people.</p>
             <div className="red">
               <div className="aboutUS">About Us</div>
